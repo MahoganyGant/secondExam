@@ -40,7 +40,11 @@ public class EvenOrOdd {
             System.out.println("Yes,we are there!");
         }
         //question five
-
+public static char getLast(String sentence){
+            int length = sentence.length();
+            char c = sentence.charAt(length - 1);
+            return c;
+}
 
         public static void main(String[] args) {
             OddOrEven(4);
@@ -51,6 +55,8 @@ public class EvenOrOdd {
             OddSquareRoot(listNumbers);
 
             AreWeThereYet();
+
+            System.out.println(getLast("i love lasagna");
         }
     }
 }
